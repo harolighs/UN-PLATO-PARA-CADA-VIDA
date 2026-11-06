@@ -33,13 +33,11 @@ El costo por porción no se muestra sin una cotización comparable y verificable
 
 Actualiza las referencias, el contenido clínico y los costos de alimentos antes de publicar una versión dirigida a público general. Se recomienda revisión por profesionales de salud.
 
-## Publicar con GitHub Pages
+## Sitio publicado
 
-El repositorio incluye un flujo de GitHub Actions en `.github/workflows/deploy.yml`. Para publicarlo:
+Web: [UN PLATO PARA CADA VIDA · ECUADOR](https://harolighs.github.io/UN-PLATO-PARA-CADA-VIDA/)
 
-1. Crea un repositorio para este proyecto y sube el contenido de esta carpeta a la rama `main`.
-2. En GitHub, abre **Settings → Pages** y selecciona **GitHub Actions** como fuente de publicación.
-3. El flujo publica el sitio al hacer push a `main`; también se puede ejecutar manualmente desde la pestaña **Actions**.
+Repositorio: [harolighs/UN-PLATO-PARA-CADA-VIDA](https://github.com/harolighs/UN-PLATO-PARA-CADA-VIDA)
 
-GitHub Pages sirve el sitio públicamente. Antes de publicar, confirma que el repositorio no contenga información privada; esta carpeta solo contiene el código estático de la web.
+El flujo de GitHub Actions en `.github/workflows/deploy.yml` publica el sitio al actualizar la rama `main`. También se puede lanzar manualmente desde la pestaña **Actions**. GitHub Pages sirve el sitio públicamente; este repositorio contiene el código estático de la web.
 
